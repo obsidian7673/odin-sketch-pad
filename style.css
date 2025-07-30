@@ -2,6 +2,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 1rem;
+  margin: 1rem;
 }
 
 .grid-container {
@@ -18,10 +20,15 @@ body {
 }
 
 .grid-item {
-  border: 2px solid black;
+  border: 1px solid black;
   flex: 1;
 }
 
 .painted {
   background-color: dimgray;
+}
+
+.make-grid {
+  padding: 1rem;
+  font-size: 1rem;
 }
