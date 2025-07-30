@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  aspect-ratio: 1 / 1;
+}
+
+.grid-row {
+  display: flex;
+  flex: 1;
+}
+
+.grid-item {
+  border: 2px solid black;
+  flex: 1;
+}
+
+.painted {
+  background-color: dimgray;
+}
